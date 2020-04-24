@@ -2,7 +2,7 @@
   "name": "random-quotes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Jannik1020.github.io/random-quotes1",
+  "homepage": "http://Jannik1020.github.io/random-quotes",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
