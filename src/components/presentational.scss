@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote-box{
+    background: white;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    display: table;
+    padding: 40px 50px;
+    border-radius: 5px;
+
+    #quote-text{
+        #quote-icon{
+            font-size: 1.5em;
+            margin-right: 0.4em;
+        }
+        font-weight: bold;
+    }
+    #quote-author{
+        font-size: 0.8em;
+        font-weight: lighter;
+        font-style: italic;
+        
+        text-align: right;
+        margin: 10px 20px 0 0;
+        display:block;
+    }
+}
+
+#buttons{
+    background: blue;
+    display: block;
+    margin: 30px auto 30px auto ;
+
+    .button{
+        border: none;
+        border-radius: 3px;
+        background: #333;
+        color: white;
+        font-weight: bold;
+        height: 38px;
+        cursor: pointer;
+    }
+
+    #tweet-quote{
+        float: left;
+        padding: 0px;
+        padding-top: 5px;
+        height: 32px;
+        width: 40px;
+    }
+
+    #new-quote{
+        float: right;
+        padding: 0 20px;
+    }
+}
+
